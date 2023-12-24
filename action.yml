@@ -40,6 +40,11 @@ inputs:
     default: '${{ github.repository }}'
     required: false
 
+  dockerfile-secrets:
+    description: 'The secrets to pass to the Dockerfile during the building phase'
+    default: ''
+    required: false
+
   github-token:
     description: 'The GitHub token, it will be exposed in the release step as the environment variable GITHUB_TOKEN'
     required: false
@@ -111,3 +116,4 @@ runs:
         file: "./${{ inputs.docker-file-src }}" # Dockerfile path
         push: true                              # Push the built image to the selected container
         tags: ${{ steps.create-tags.outputs.tags }}
+        secrets: ${{ inputs.dockerfile-secrets }}
