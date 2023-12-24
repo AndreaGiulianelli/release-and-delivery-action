@@ -1,5 +1,5 @@
 # Release and delivery action
-![Release](https://github.com/smartoperatingblock/release-and-delivery-action/actions/workflows/release.yml/badge.svg)
+![Release](https://github.com/AndreaGiulianelli/release-and-delivery-action/actions/workflows/release.yml/badge.svg)
 
 A simple composite GitHub Action taking care of the release and the docker container delivery of a project.
 
@@ -18,7 +18,7 @@ If you don't perform the release then you can also avoid to specify the `CONTAIN
 the *latest* tag will be used.
 
 ``` yaml
-- uses: SmartOperatingBlock/release-and-delivery-action@<latest-version>
+- uses: AndreaGiulianelli/release-and-delivery-action@<latest-version>
   with:
     # True if the action should perform the release of the project
     # Default: true
