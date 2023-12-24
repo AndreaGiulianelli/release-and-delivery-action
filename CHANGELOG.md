@@ -1,3 +1,23 @@
+## 1.0.0 (2023-12-24)
+
+
+### Features
+
+* add first version ([a30e76c](https://github.com/AndreaGiulianelli/release-and-delivery-action/commit/a30e76c2df1f2f83a0dcef1bd028b0bdd0e4e610))
+* add the possibility to pass secrets to dockerfile ([48dff62](https://github.com/AndreaGiulianelli/release-and-delivery-action/commit/48dff62f9997da9509e90e1a1c6d3c23f4d2d4d5))
+
+
+### Build and continuous integration
+
+* add contents permissions ([865e932](https://github.com/AndreaGiulianelli/release-and-delivery-action/commit/865e9322dd71eac1d64eded8267e95305c392e2d))
+* add permissions to token ([da93704](https://github.com/AndreaGiulianelli/release-and-delivery-action/commit/da93704d779ccc8d3ae6ae40d19d59f27e1b6af1))
+
+
+### General maintenance
+
+* update README ([24fb282](https://github.com/AndreaGiulianelli/release-and-delivery-action/commit/24fb282587a34fffb659eafd0283f65cff529d8a))
+* update README ([4880e26](https://github.com/AndreaGiulianelli/release-and-delivery-action/commit/4880e26df64af9e80f29e3fc23aeee1621583663))
+
 ## [1.0.11](https://github.com/SmartOperatingBlock/release-and-delivery-action/compare/1.0.10...1.0.11) (2023-11-18)
 
 
