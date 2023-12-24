@@ -51,6 +51,10 @@ the *latest* tag will be used.
     # The name of docker container image to build and deliver
     # Default: '${{ github.repository }}'
     image-name: '<image name>'
+
+    # The secrets to pass to the Dockerfile during the building phase
+    dockerfile-secrets: |
+      "github_token=${{ secrets.GITHUB_TOKEN }}"
     
     # The GitHub token, it will be exposed in the release step
     # as the environment variable GITHUB_TOKEN
